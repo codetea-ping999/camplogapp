@@ -1,0 +1,11 @@
+-- CampLog stores uploaded media in the private `camp-media` bucket.
+-- The bucket and policies are already created in schema.sql.
+-- This file documents the intended object key shape.
+
+-- Object path convention:
+--   {user_id}/{log_id}/{timestamp}-{filename}
+--
+-- Example:
+--   11111111-1111-1111-1111-111111111111/
+--   22222222-2222-2222-2222-222222222222/
+--   1710591200000-breakfast-fire.jpg
