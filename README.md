@@ -97,3 +97,4 @@ The current implementation has been validated with:
 - `npm run build`
 - `npm run smoke`
 - manifest and service worker checks on a production server
+# techdocs
